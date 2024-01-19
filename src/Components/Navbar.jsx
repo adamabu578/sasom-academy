@@ -123,8 +123,8 @@ const Navbar = () => {
           </Link>
         </div>
         {showMobileNav && (
-          <div className="md:hidden bg-primary absolute right-2 top-16 flex flex-col gap-2 items-center">
-            <ul className="flex flex-col p-4 justify-between text-lg font-semibold gap-5 lg:gap-20">
+          <div className="md:hidden animate-pulse bg-primary absolute z-10 right-2 top-16 flex flex-col gap-2 items-center">
+            <ul className="flex flex-col p-4 justify-between text-lg text-white font-semibold gap-5 lg:gap-20">
               <Link to="/">
                 <li
                   onClick={() => setShowMobileNav(!showMobileNav)}

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-primary text-white mt-10 md:px-20 px-5 py-10">
       <div className="flex md:flex-row flex-col items-center md:items-start gap-5 md:gap-0 md:justify-between border-b-white border-b-2 pb-5">
-        <div className="cursor-pointer">
+        <div className="flex flex-col items-center md:block">
           <Link to="/">
             <svg
               width="164"
@@ -95,7 +95,7 @@ const Footer = () => {
               </defs>
             </svg>{" "}
           </Link>
-          <p className="mt-4 max-w-[300px]">
+          <p className="mt-4 max-w-[300px] text-center md:text-left">
             At Sasom Academy, you have the chance to acquire sought-after skills
             for constructing your career in technology.
           </p>
@@ -232,7 +232,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" mt-7 flex gap-5 md:gap-0 items-center md:justify-between md:flex-row flex-col-reverse">
+      <div className="mt-7 flex gap-5 md:gap-0 items-center md:justify-between md:flex-row flex-col-reverse">
         <p>copyright 2024 Sasom</p>
         <div className="flex gap-2 md:gap-5 items-center flex-col md:flex-row">
           <p>Terms and Conditions</p>
