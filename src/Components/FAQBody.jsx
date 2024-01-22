@@ -93,11 +93,15 @@ const FAQBody = () => {
       <div className="flex flex-col items-center">
         <h2 className="text-3xl font-semibold mb-5">FAQS</h2>
         <div className="flex gap-10">
-          <p className="p-4 border-[1px] rounded-lg border-primary">General</p>
-          <p className="p-4 border-[1px] rounded-lg border-primary">
+          <p className="sm:p-4 p-1 border-[1px] rounded-lg border-primary">
+            General
+          </p>
+          <p className="sm:p-4 p-1 border-[1px] rounded-lg border-primary">
             Registration
           </p>
-          <p className="p-4 border-[1px] rounded-lg border-primary">Training</p>
+          <p className="sm:p-4 p-1 border-[1px] rounded-lg border-primary">
+            Training
+          </p>
         </div>
       </div>
       <div className="mt-5">

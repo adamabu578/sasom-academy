@@ -9,9 +9,12 @@ const QuestionCard = ({ que, ans }) => {
   };
 
   return (
-    <div className="sm:w-[500px] md:w-[600px] lg:w-[700px] p-4">
+    <div
+      onClick={handleShow}
+      className="w-[300px]sm:w-[500px] md:w-[600px] lg:w-[700px] p-4 border-[1px] rounded-lg border-primary mb-3"
+    >
       <div className="flex items-center justify-between">
-        <h3 className="">{que}</h3>
+        <h3 className="text-sm sm:text-lg">{que}</h3>
         {show ? (
           <svg
             className="cursor-pointer"
@@ -32,6 +35,8 @@ const QuestionCard = ({ que, ans }) => {
           </svg>
         ) : (
           <svg
+            className="cursor-pointer"
+            onClick={handleShow}
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -45,7 +50,7 @@ const QuestionCard = ({ que, ans }) => {
           </svg>
         )}
       </div>
-      {show && <p className="text-textGray">{ans}</p>}
+      {show && <p className="text-sasomBlue mt-5">{ans}</p>}
     </div>
   );
 };
