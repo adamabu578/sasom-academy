@@ -157,7 +157,7 @@ const Navbar = () => {
                   onClick={() => setShowMobileNav(!showMobileNav)}
                   className="hover:text-white transition ease-in hover:cursor-pointer"
                 >
-                  Contact
+                  Register
                 </li>
               </Link>
             </ul>

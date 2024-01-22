@@ -4,8 +4,8 @@ import HeroImage from "../assets/lady-with-books.png";
 
 const Hero = () => {
   return (
-    <header className="md:h-[600px] bg-white  w-full px-5 py-0 md:px-20 bg-opacity-40 flex md:justify-between flex-col-reverse md:flex-row items-center">
-      <section className="md:mt-10 md:mt-0 md:w-[550px]">
+    <header className="md:h-[600px] bg-white  w-full px-5 py-0 md:px-20 bg-opacity-40 flex md:justify-between flex-col md:flex-row items-center">
+      <section className="md:mt-10 md:w-[550px]">
         <h1 className="text-4xl leading-normal  font-semiBold text-black mb-5">
           Acquire the skills you need for a $100k+ tech career in just{" "}
           <span className="text-primary">3 months.</span>

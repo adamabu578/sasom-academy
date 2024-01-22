@@ -14,6 +14,7 @@ module.exports = {
       sasomRed: "#ec3f75",
       sasomGreen: "#00c57d",
       primary: "#009EC5",
+      darkGreen: "#002933",
     },
   },
   plugins: [],
