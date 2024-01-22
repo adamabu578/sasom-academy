@@ -40,7 +40,7 @@ const AboutBody = () => {
           <h2 className="text-xl font-semibold text-darkGreen mb-2">
             Our Core Values
           </h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <ValuesComponent heading="Passion" />
             <ValuesComponent heading="Creativity" />
             <ValuesComponent heading="Quality" />
